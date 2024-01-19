@@ -1,0 +1,72 @@
+.about{
+    margin-top: var(--spacer-xl);
+    padding-bottom: var(--spacer-xl);
+    margin-left: 10vh;
+}
+.about-h1{
+    
+}
+.about-info{
+    font-size: var(--text-xs);
+}
+.frasecont{
+    margin-right: 20vh;
+    margin-top: var(--spacer-l);
+}
+
+.aboutfrase{
+    font-size: 1.4em;
+    font-weight: 200;
+    text-align: right;
+    font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    margin-left: 5vh;
+      margin-bottom: var(--spacer-xl);
+  }
+  .frasecont{
+    margin-right: 25vh;
+}
+}
+@media (max-width: 900px) {
+  .about {
+    margin-left: 5vh;
+  }
+    .aboutfrase{
+    text-align: left;
+}
+}
+
+@media (max-width: 700px) {
+  .about {
+      margin-top: var(--spacer-l);
+    margin-left: 0;
+  }
+  .aboutfrase{
+    font-size: 1.2em;
+}
+}
+@media (max-width: 500px) {
+  .about {
+    margin-left: 0;
+  }
+  .frasecont{
+    margin-right: 0;
+}
+  .aboutfrase{
+    font-size: 1.2em;
+}
+}
+@media (max-width: 300px) {
+  .about {
+    margin-left: 0;
+  }
+  .frasecont{
+    margin-right: 0;
+}
+  .aboutfrase{
+    font-size: 1.2em;
+}
+}

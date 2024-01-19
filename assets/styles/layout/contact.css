@@ -1,0 +1,39 @@
+.contact{
+    margin-top: var(--spacer-xl);
+    overflow: hidden;
+    margin-left: 10vh;
+}
+.contact-h1{
+    width: 75px;
+}
+.contact-info{
+    font-size: var(--text-xs);
+}
+
+
+@media (max-width: 1024px) {
+  .contact {
+    margin-left: 5vh;
+  }
+}
+@media (max-width: 900px) {
+  .contact {
+    margin-left: 5vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .contact {
+    margin-left: 0;
+  }
+}
+@media (max-width: 300px) {
+  .contact {
+    margin-left: 0;
+  }
+}

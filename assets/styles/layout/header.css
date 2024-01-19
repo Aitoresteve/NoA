@@ -1,0 +1,74 @@
+.header{
+  padding-top: var(--spacer-l);
+  padding-bottom: var(--spacer-m);
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+    z-index: 1;
+}
+/*Background del heder cuando hay texto o imagenes y proteger el logo*/
+.headertxt{
+    
+}
+
+.header .container{
+    display: flex;
+}
+
+.header img{
+    display: block; 
+}
+
+.header-logo{
+    width: 130px;
+    margin-left: auto;
+}
+
+.header-nav-icon{
+    margin-left: auto;
+}
+
+
+.home img.header-logo-black{
+    display: none;
+}
+/* Estilos para ocultar el logo beige en todas las demás páginas */
+img.header-logo-beige:not(.home .header .header-logo-beige) {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+  .header-logo {
+    width: 170px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-logo {
+    width: 150px;
+    margin-left: auto;
+  }
+    .headertxt{
+    background: var(--beige);
+}
+}
+@media (max-width: 500px) {
+  .header-logo {
+    width: 150px;
+    margin-left: auto;
+  }
+    .headertxt{
+    background: var(--beige);
+}
+}
+@media (max-width: 300px) {
+  .header-logo {
+    width: 150px;
+    margin-left: auto;
+  }
+    .headertxt{
+    background: var(--beige);
+}
+}

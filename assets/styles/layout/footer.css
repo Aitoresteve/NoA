@@ -1,0 +1,67 @@
+.footer {
+  background-color: transparent;
+  padding-bottom: var(--spacer-l);
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*Background del footer cuando hay texto o imagenes y proteger el menu*/
+.footertxt{
+    
+}
+
+.footer .container{
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+  align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  width: 100%; /* Ocupa todo el ancho disponible en el contenedor */
+}
+
+.info {
+  flex: 1; /* Toma el espacio disponible en la parte izquierda */
+    text-align: right; /* Alinea el texto de navegación a la derecha */
+  color: var(--negro);
+  text-decoration: none;
+  font-weight: regular;
+  margin-left: auto;
+  display: block;
+    font-size: var(--text-2xs);
+}
+
+.home .info{
+    color: var(--beige);
+}
+
+@media (max-width: 1024px) {
+    .footertxt{
+        
+    }
+  
+}
+@media (max-width: 900px) {
+  .footertxt{
+        background: var(--beige);
+    }
+}
+
+@media (max-width: 700px) {
+ .footertxt{
+        background: var(--beige);
+    }
+}
+@media (max-width: 500px) {
+  .footertxt{
+    background: var(--beige);
+}
+}
+@media (max-width: 300px) {
+  .footertxt{
+    background: var(--beige);
+}
+}
